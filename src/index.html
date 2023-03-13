@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Comments</title>
+</head>
+<body>
+<main class="main">
+    <div class="container">
+        <div class="main__wrapper">
+            <header class="main__header header">
+<!--                <img src="../assets/logo.png" alt="" class="header__logo">-->
+                <div class="header__text"></div>
+            </header>
+            <section class="main__post post">
+                <img src="./assets/avatar.png" alt="" class="post__avatar">
+                <p class="post__text">Какой-то великолепный пост!</p>
+            </section>
+            <form class="main__form form" id="comment-form">
+                <div class="comment-form__top">
+                    <input type="text" class="form__name" placeholder="Ваше имя" name="name">
+                    <input name="date" type="date" class="form__date" placeholder="Дата">
+                </div>
+                <textarea name="text" id="" cols="20" rows="3" class="form__text" placeholder="Комментарий"></textarea>
+                <button type="submit" class="form__btn">Добавить</button>
+            </form>
+            <div id="comments" class="comments"></div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
